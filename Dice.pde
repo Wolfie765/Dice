@@ -5,7 +5,7 @@ void setup()
 }
 void draw()
 {
-	background(197);
+	background(198);
 	//your code here
 	int sum = 0;
 	for (int j = 10; j < 400; j += 50)
@@ -18,8 +18,9 @@ void draw()
 			sum = sum + turkey.numb;
 
 		}
+
 	}
-	text("The Sum of your die roll is: "+ sum, 120, 420);
+	text("Your Lucky Numbers are: --"+ sum +" --" + (sum+ (int)(Math.random()*sum) + " -" + ( (sum*-1) - (-1*(int)(Math.random()*sum)))), 120, 420);
 }
 void mousePressed()
 {
