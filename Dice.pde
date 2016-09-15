@@ -18,7 +18,6 @@ void draw()
 			sum = sum + turkey.numb;
 
 		}
-		System.out.println(sum);
 	}
 	text("The Sum of your die roll is: "+ sum, 120, 420);
 }
