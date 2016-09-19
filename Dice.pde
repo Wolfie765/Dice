@@ -20,7 +20,8 @@ void draw()
 		}
 
 	}
-	text("Your Lucky Numbers are: --"+ sum +" --" + (sum+ (int)(Math.random()*sum) + " -" + ( (sum*-1) - (-1*(int)(Math.random()*sum)))), 120, 420);
+	text("Your Lucky Numbers are--"+ sum +"--" + (sum+ (int)(Math.random()*sum) + "-" + ( (sum*-1) - (-1*(int)(Math.random()*sum)))), 120, 420);
+	text("  1st Number is the sum, 2nd number is sum + random number,\n                                3rd is sum - random number", 30, 435);
 }
 void mousePressed()
 {
